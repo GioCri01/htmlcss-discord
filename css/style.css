@@ -41,6 +41,10 @@ body{
     background-color: rgba(221, 221, 221, 0.973);
 }
 
+.footer-bg-color{
+    background-color: #090909;
+}
+
 
 
 
@@ -50,14 +54,14 @@ body{
 /*Header*/
 
 header{
-    height: 80px;
+    
     width: 100%;
     background-color: #255EE9;
 }
 
 header .menu .logo,ul,.accedi{
     float: left;
-    line-height: 80px;
+    padding-top: 20px;
     
 }
 
@@ -160,6 +164,8 @@ header .accedi span{
          height: 100vh;
          width: 100%;
          position: relative;
+         
+         
         } 
          
 
@@ -231,6 +237,106 @@ header .accedi span{
         color: white;
 
      }
+
+
+     /*footer*/
+
+     footer{
+         color: white;
+         font-weight: bold;
+     }
+
+
+     footer .colum-1 h2{
+         padding-top: 40px;
+         font-size: 40px;
+         margin-bottom: 20px;
+         color: #255EE9;
+     }
+     
+     footer .colum-1 img{
+         height: 20px;
+     }
+
+     footer .colum-1 ul li{
+         display: inline-block;
+        
+         padding: 0 10px;
+      }   
+
+      footer .colum-1 ul li a{
+          color: white;
+      }
+        /* elementi flottati*/
+
+        .colum-1{
+            width: 49%;
+            margin-right: 1%;
+        }
+         
+      .colum-1,.colum-2,.colum-3,.colum-4,.colum-5{
+          float: left;
+      }
+
+      .colum-2,.colum-3,.colum-4,.colum-5{
+          width: 9%;
+          margin-left: 1%;
+      } 
+
+      .colum-2 ul li {
+          list-style: none;
+          line-height: 50px;
+      } 
+      .colum-2 ul li a{
+          text-decoration: none;
+          color: white;
+          
+      }     
+      
+      .colum-3 ul li {
+        list-style: none;
+        line-height: 50px;
+        
+    } 
+    .colum-3 ul li a{
+        text-decoration: none;
+        color: white;
+    }   
+    
+    .colum-4 ul li {
+        list-style: none;
+        line-height: 50px;
+    } 
+    .colum-4 ul li a{
+        text-decoration: none;
+        color: white;
+    }     
+    
+    .colum-5 ul li {
+        list-style: none;
+        line-height: 50px;
+    } 
+    .colum-5 ul li a{
+        text-decoration: none;
+        color: white;
+    }  
+    
+    .credits{
+        border-top: 1px solid cornflowerblue;
+        padding-top: 20px;
+    }
+
+    .credits span{
+        float: right;
+        color: #fcf8f8;
+        padding: 10px 15px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 15px;
+        background: #035bff;
+    }
+
+     
 
 
 
