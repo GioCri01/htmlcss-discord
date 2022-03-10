@@ -45,28 +45,39 @@ body{
     background-color: #090909;
 }
 
+.blue{
+    color: #035bff;
+}
 
+svg{
+    color:rgba(221, 221, 221, 0.973);
+    background-color: white;
+    
+}
 
-
+.svg-white{
+    background-color:rgba(221, 221, 221, 0.973) ;
+    color: white;
+}
 
 
 
 /*Header*/
 
 header{
-    
+    height: 80px;
     width: 100%;
     background-color: #255EE9;
 }
 
 header .menu .logo,ul,.accedi{
     float: left;
-    padding-top: 20px;
+    line-height: 80px;
     
 }
 
 header .logo{
-    width: 20%;
+    width: 10%;
     text-align: center;
     
 }
@@ -76,7 +87,7 @@ header .logo img{
 }
 
 header ul{
-    width: 60%;
+    width: 80%;
     text-align: center;
 }
 
@@ -96,8 +107,11 @@ header ul li a{
 }
 
 header .accedi{
-    width: 20%;
+    width: 10%;
     text-align: center;
+}
+header .accedi a{
+    text-decoration: none;
 }
 
 header .accedi span{
@@ -106,27 +120,27 @@ header .accedi span{
  font-weight: bold;
  font-size: 15px;
  border-radius: 15px;
- background: #e8e8e8;}
+ background: #e8e8e8;
+cursor: pointer;}
+ 
  
 
 
  /*jumbotron*/
 
  .jumbotron{
-     height: 100vh;
+     height: 500px;
      width: 100%;
-     background-image: url(/img/jumbo.png);
+     background-image: url(../img/jumbo.png);
      background-position: center;
      background-size: cover;
-     position: relative;
+     text-align: center;
+     padding: 80px;
  }
 
  .jumbotron-content{
-     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50% , -50%);
-     text-align: center;
+     width: 60%;
+     margin:  auto;
      color: white;
      
 
@@ -154,6 +168,7 @@ header .accedi span{
      padding: 15px 50px;
      margin: 0 10px;
      border-radius: 20px;
+     cursor: pointer;
      
      } 
 
@@ -161,19 +176,22 @@ header .accedi span{
      /*main*/
     
      main .box{
-         height: 100vh;
+         
+         
+         height: 100%;
          width: 100%;
-         position: relative;
+         
+
          
          
         } 
          
 
      main .box-content{
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50% , -50%);
+         width: 80%;
+         margin: 0 auto;
+         padding: 100px;
+         
      }
             /*BOX FLOTTANTI*/ 
 
@@ -216,12 +234,14 @@ header .accedi span{
 
      .last-box-content h2,h3{
          font-size: 50px;
-         margin-bottom: 20px;
+         margin-bottom: 10px;
      }
 
      .last-box-content h3{
+        
+         
          font-size: 25px;
-         margin-top: 50px;
+         
      }
 
      .last-box-content p{
@@ -235,6 +255,7 @@ header .accedi span{
         border-radius: 20px;
         background-color: #255EE9;
         color: white;
+        cursor: pointer;
 
      }
 
@@ -323,7 +344,7 @@ header .accedi span{
     
     .credits{
         border-top: 1px solid cornflowerblue;
-        padding-top: 20px;
+        padding: 20px;
     }
 
     .credits span{
@@ -335,6 +356,8 @@ header .accedi span{
         border-radius: 15px;
         background: #035bff;
     }
+
+    
 
      
 
